@@ -7,8 +7,8 @@ import Budget from './components/Budget';
 import Remaining from './components/Remaining';
 import ExpenseTotal from './components/ExpenseTotal';
 import ExpenseList from './components/ExpenseList';
-import ExpenseItem from './components/ExpenseItem';
 import AllocationForm from './components/AllocationForm';
+import ChangeCurrency from './components/ChangeCurrency';
 
 import { AppProvider } from './context/AppContext';
 const App = () => {
@@ -27,7 +27,7 @@ const App = () => {
                         <ExpenseTotal />
                     </div>
                     <ExpenseList />
-                    <ExpenseItem />
+                    <ChangeCurrency />
                     <AllocationForm />    
                 </div>
             </div>
